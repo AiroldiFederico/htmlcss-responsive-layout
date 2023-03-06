@@ -43,6 +43,11 @@ body {
 }
 
 
+section {
+    margin: 20px 0;
+}
+
+
 /* -------------------------------- */
 /* HEADER */
 
@@ -63,11 +68,13 @@ nav {
 .card-container {
     width: 90%;
     margin: auto;
-    padding-top: 20px;
     align-items: center;
+    flex-direction: column;
 }
 
-
+.card-container > div {
+    margin: 10px;
+}
 
 .card-1 {
     background-color: #b4ddfe;
@@ -79,3 +86,41 @@ img {
     width: 100%;
     display: block;
 }
+
+
+.card-2 {
+    background-color: #b4ddfe;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+}
+
+
+/* icon card */
+
+.i-card {
+    color: #0184fc;
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+/* BODY *//* SECTION PLANNING*/
+
+.planning-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+
+}
+
