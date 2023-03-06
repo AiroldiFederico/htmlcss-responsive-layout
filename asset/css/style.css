@@ -39,6 +39,43 @@ a {
 
 body {
     font-family: sans-serif;
+    width: 480px;
 }
+
+
 /* -------------------------------- */
 /* HEADER */
+
+
+/* HEADER *//*NAVBAR*/
+
+nav {
+    justify-content: space-between;
+    background-color: #0184fc;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+/* BODY *//* SECTION CARD*/
+
+.card-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    align-items: center;
+}
+
+
+
+.card-1 {
+    background-color: #b4ddfe;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
