@@ -203,3 +203,54 @@ img {
 .name-test-div {
     margin-top: 10px;
 }
+
+
+
+
+/* -------------------------------------------------- */
+/* RESPONSIVE */
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+
+    nav {
+        justify-content: space-between;
+        background-color: #c70000;
+        align-items: center;
+        padding: 20px;
+    }
+    
+}
+
+
+
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+    
+    nav {
+        justify-content: space-between;
+        background-color: #06a800;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    
+}
+
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+
+    nav {
+        justify-content: space-between;
+        background-color: #0184fc;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+}
