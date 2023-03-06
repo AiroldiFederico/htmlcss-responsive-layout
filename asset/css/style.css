@@ -1,0 +1,44 @@
+/* -------------------------------- */
+/* UTILITY */
+
+.wid-80 {
+    margin: auto;
+    width: 60%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+}
+
+i {
+    color: white;
+    margin-left: 10px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+
+.mrg-10 {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+/* -------------------------------- */
+/* HEADER */
