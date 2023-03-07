@@ -282,9 +282,20 @@ header nav ul {display: none;}
         display: flex;
     }
 
+    /* ---------------------------- */
+    /* PLANNING */
+    
+    #strategy-planning .col {
+        flex-basis: 50%;
+    }
 
+    #strategy-planning .card-white {
+        align-self: flex-end;
+    }
 
-
+    #strategy-planning .card-white img {
+        width: 50%;
+    }
 
 }
 
