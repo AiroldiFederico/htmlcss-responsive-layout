@@ -93,10 +93,12 @@ h3 {
 .btn-blue {
     background-color: #0184fc;
     color: white;
+    margin: 1.25rem 0;
+
 }
 
-img {
-    width: 100%;
+#intro img {
+    width: 80%;
     display: block;
 }
 
@@ -141,6 +143,8 @@ header nav ul {
 .card {
     flex-basis: 100%;
     background-color: #b4ddfe;
+    padding: 1.5rem;
+    border-radius: 15px;
 }
 
 .card h3 {
@@ -148,12 +152,14 @@ header nav ul {
 }
 
 .card p {
-    color: rgb(44, 44, 44);
+    color: rgb(113, 104, 149);
     line-height: 140%;
+    margin: 1.25rem 0;
 }
 
-
-
+.card img {
+    margin-top: 1.25rem;
+}
 
 
 
@@ -195,7 +201,11 @@ header nav ul {
 /* TABLET */
 @media only screen and (min-width: 768px) {
     
-    
+    /* CARD */
+    img {
+        width: 50%;
+        display: block;
+    }
     
     
 }
@@ -213,6 +223,12 @@ header nav ul {
         display: block;
     }
 
+
+    /* CARD */
+
+    #intro .card:first-child {
+        display: flex;
+    }
 
 }
 
