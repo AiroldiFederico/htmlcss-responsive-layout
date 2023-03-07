@@ -60,6 +60,7 @@ nav {
 .card-container {
     width: 90%;
     margin: auto;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
@@ -72,6 +73,11 @@ nav {
     background-color: #b4ddfe;
     padding: 20px;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 
@@ -89,6 +95,13 @@ nav {
 img {
     width: 100%;
     display: block;
+}
+
+.img-phone {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /* icon card */
@@ -116,7 +129,7 @@ img {
 
 }
 
-#planning {
+.bg-sec {
     background-color: #9792e4;
 }
 
@@ -206,21 +219,28 @@ img {
 
     body {
         font-family: sans-serif;
-        width: 480px;
+        width: 100vw;
     }
     
     
     section {
         margin: 20px 0;
+        width: 60%;
+        margin: auto;
     }
 
 /* --------------------------------------- */
 
+    header {
+        background-color: #c70000;
+    }
+
     nav {
         justify-content: space-between;
-        background-color: #c70000;
         align-items: center;
         padding: 20px;
+        width: 60%;
+        margin: auto;
     }
     
 
@@ -228,19 +248,29 @@ img {
 
 
     .card-container {
-        width: 90%;
-        margin: auto;
+        width: 100%;
+        margin: 30px auto;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
+
 
     .card-1 {
         background-color: #b4ddfe;
         padding: 20px;
         border-radius: 25px;
+        width: calc(96%/3*2);
+        height: 350px;
+        display: flex;
+        flex-direction: row;
     }
-    
-    
+
+    .img-phone {
+        width: 30%;
+    }
+
     .card-2 {
         background-color: #b4ddfe;
         padding: 20px;
@@ -250,26 +280,66 @@ img {
         justify-content: space-between;
         align-items: center;
         min-height: 300px;
+        width: calc(90%/3);
+        height: 350px;
     }
 
 
 /* ---------------------------------------- */
 
+    .planning-container {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        padding: 25px;
+
+    }
 
     #white-card {
         background-color: white;
         border-radius: 50px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-between; */
         align-items: center;
         height: auto;
         padding: 30px 0;
     }
 
+/* ---------------------------------------- */
+
+    .card-testimonial {
+        background-color: #9792e4;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        margin: 10px 0;
+    }
 
 
+    .img-test {
+        display: block;
+        width: 50%;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+    
+    .img-div-test {
+        width: auto;
+        height: auto;
+        margin-right: -20%;
+    }
 
+    .content-div-test {
+        margin-bottom: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
