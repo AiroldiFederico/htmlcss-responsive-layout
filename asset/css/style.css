@@ -109,176 +109,57 @@ nav {
     display: none;
 }
 
+
+
+.hamb {
+    color: white;
+    font-size: 30px;
+}
+
+#list-nav-2 {
+    display: none;
+}
+
+.hamb:active #list-nav {
+    display: block;
+}
+
+#list-nav:hover {
+    display: block;
+}
+
+/* ---------------------------------------- */
+
 /* MAIN *//* SECTION CARD*/
 
-.card-container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.card-container > div {
-    margin: 10px;
-}
-
-/* .card-1 {
-    background-color: #b4ddfe;
-    padding: 20px;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    min-height: 550px;
-} */
-
-
-/* .card-2 {
-    background-color: #b4ddfe;
-    padding: 20px;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 300px;
-} */
-
-.card-2-p {
-    font-weight: bold;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.511);
-}
-
-img {
-    width: 100%;
-    display: block;
-}
-
-
-/* icon card */
-
-.i-card {
-    color: #0184fc;
-    font-size: 70px;
-}
-
-
-#div-text-phone {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    height: 100%;
-}
-
-.button2 {
-    padding: 8px 18px;
-    background-color:#0184fc;
-    color: white;
-    transition: background-color 0.5s;
-    font-size: large;
-    width: 200px;
-    border-color: solid rgba(0, 0, 0, 0);
-    border-radius: 30px;
-    align-items: center;
-}
 
 
 
-/* MAIN *//* SECTION PLANNING*/
-
-.planning-container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    padding: 25px;
-
-}
-
-.bg-sec {
-    background-color: #9792e4;
-}
-
-.plan-1,
-.plan-2 {
-    padding: 20px;
-}
 
 
-#white-card {
-    background-color: white;
-    border-radius: 50px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-    align-items: center;
-    height: 600px;
-    padding: 30px 0;
-}
 
 
-/* MAIN *//* SECTION TESTIMONIALS*/
 
-.testimonials-container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    padding: 25px 0px;
-}
 
-#content-test {
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-#title-testimonial {
-    margin: 20px;
-}
 
-.card-testimonial {
-    background-color: #9792e4;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 450px;
-    margin: 20px 0;
-}
 
-.img-test {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
 
-.img-div-test {
-    margin: 20px;
-    width: 300px;
-    height: 300px;
-    /* background-color: blanchedalmond; */
-}
 
-.content-div-test {
-    margin-bottom: 15px;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.name-test-div {
-    margin-top: 10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -328,114 +209,19 @@ img {
 /* ---------------------------------------- */
 
 
-    .card-container {
-        width: 100%;
-        margin: 30px auto;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        position: relative;
-    }
-
-
-    .card-1 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        width: calc(96%/3*2);
-        height: 350px;
-        align-items:center;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .img-phone {
-        width: 100%;
-        display: block;
-
-    }
-
-
-
-    .card-2 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 300px;
-        width: calc(90%/3);
-        height: 350px;
-    }
-
-
-/* ---------------------------------------- */
-
-    .planning-container {
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        margin: auto;
-        align-items: center;
-        padding: 25px;
-
-    }
-
-    #white-card {
-        background-color: white;
-        border-radius: 50px;
-        align-items: center;
-        height: auto;
-        padding: 30px 0;
-    }
-
-/* ---------------------------------------- */
-
-    .card-testimonial {
-        background-color: #9792e4;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: auto;
-        margin: 10px 0;
-    }
-
-
-    .img-test {
-        display: block;
-        width: 50%;
-        border-radius: 50%;
-        aspect-ratio: 1;
-        object-fit: cover;
-    }
-    
-    .img-div-test {
-        width: auto;
-        height: auto;
-        margin-right: -20%;
-    }
-
-    .content-div-test {
-        margin-bottom: 15px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
 }
 
 
 
 
+
+
+
+
+
 /* TABLET */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
     
     body {
         font-family: sans-serif;
@@ -475,111 +261,7 @@ img {
 /* ---------------------------------------- */
 
 
-    .card-container {
-        width: 90%;
-        margin: auto;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-
-    /* .card-1 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        width: calc(95%/3*2);
-        height: 700px;
-    } */
-    
-    .card-1 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        min-height: 550px;
-    }
-    
-    .card-2 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 300px;
-        width: calc(90%/3);
-        height: 700px;
-    }
-
-    .img-phone {
-        width: 50%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-
-/* ---------------------------------------- */
-
-
-
-    #white-card {
-        background-color: white;
-        border-radius: 50px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-between; */
-        align-items: center;
-        height: auto;
-        padding: 30px 0;
-    }
-
-
-
-
-/* ---------------------------------------- */
-
-
-    .card-testimonial {
-        background-color: #9792e4;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: auto;
-        margin: 10px 0;
-    }
-
-
-    .img-test {
-        display: block;
-        width: 50%;
-        border-radius: 50%;
-        aspect-ratio: 1;
-        object-fit: cover;
-    }
-    
-    .img-div-test {
-        width: auto;
-        height: auto;
-        margin-right: -20%;
-    }
-
-    .content-div-test {
-        margin-bottom: 15px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
+   
 
 }
 
@@ -591,127 +273,11 @@ img {
 @media only screen and (max-width: 480px) {
 
 
-    body {
-        font-family: sans-serif;
-        width: 480px;
-    }
-    
-    
-    section {
-        margin: 20px 0;
-    }
-
-/* ---------------------------------------- */
-
-    nav {
-        justify-content: space-between;
-        background-color: #0184fc;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .hamb {
-        color: white;
-        font-size: 30px;
-    }
-
-    #list-nav-2 {
-        display: none;
-    }
-
-    .hamb:active #list-nav {
-        display: block;
-    }
-
-    #list-nav:hover {
-        display: block;
-    }
-
-/* ---------------------------------------- */
 
 
-    .card-container {
-        width: 90%;
-        margin: auto;
-        align-items: center;
-        
-    }
-
-    /* .card-1 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        width: 100%;
-    } */
-    
-    .card-1 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        min-height: 550px;
-    }
-    
-    .card-2 {
-        background-color: #b4ddfe;
-        padding: 20px;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        max-height: 550px;
-        width: 100%;
-    }
-
-    .img-phone {
-        width: 50%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-
-/* ---------------------------------------- */
 
 
-    .card-testimonial {
-        background-color: #9792e4;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: auto;
-        margin: 20px 0;
-    }
 
-    .content-div-test {
-        margin-bottom: 15px;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .img-test {
-        margin: 0 auto;
-        width: 80%;
-        border-radius: 50%;
-        aspect-ratio: 1;
-        object-fit: cover;
-    }
-
-    .img-div-test {
-        margin: 20px;
-        width: auto;
-        height: auto;
-        /* background-color: blanchedalmond; */
-    }
 
 
 
