@@ -1,9 +1,6 @@
 /* -------------------------------- */
 /* UTILITY */
 
-/* -------------------------------- */
-/* UTILITY */
-
 .wid-80 {margin: auto; width: 80%;}
 .wid-60 {margin: auto; width: 60%;}
 .wid-50 {margin: auto; width: 50%;}
@@ -25,12 +22,19 @@
 .mrg-top-40 {margin-top: 40px;}
 
 
-body {
-    font-family: 'Rubik', sans-serif;
+body {font-family: 'Rubik', sans-serif;}
+
+/* prop lista reset dot */
+ul li {
+	list-style-type: none;
+    display: inline-block;
+    margin: 1.25rem;
+}
+ul li:last-child{
+	margin-right: 0;
 }
 
-
-
+/* prop ref link */
 a {
     outline: none;
     text-decoration: none;
@@ -38,11 +42,11 @@ a {
     font-family: sans-serif;
     font-weight: bold;
 }
-
 a:hover {
     color: rgb(0, 0, 0);
 }
 
+/* BUTTON STYLE *//*-----------------------------------------------*/
 .button1 {
     padding: 8px 18px;
     background-color: #0160ff;
@@ -56,24 +60,6 @@ a:hover {
     padding: 5px 10px;
     border-radius: 20px;
 }
-
-ul li {
-	list-style-type: none;
-    display: inline-block;
-    margin: 1.25rem;
-}
-ul li:last-child{
-	margin-right: 0;
-}
-
-
-
-h3 {
-    color: #0184fc;
-    font-size: 25px;
-    font-weight: bold;
-}
-
 
 .btn {
     padding: 8px 12px;
@@ -89,27 +75,27 @@ h3 {
     background-color: #0184fc;
     color: white;
     margin: 1.25rem 0;
-
-}
-
-#intro img {
-    width: 80%;
-    display: block;
 }
 
 
-
-
-
-
-/* -------------------------------- */
-
-/* -------------------------------- */
-/* HEADER */
-
-#intro {
-    padding: 2.5rem;
+/* Title style *//*-----------------------------------------------*/
+h3 {
+    color: #0184fc;
+    font-size: 25px;
+    font-weight: bold;
 }
+
+
+
+
+
+
+
+
+/* -------------------------------- *//*-----------------------------------------------*/
+
+/* -------------------------------- *//*-----------------------------------------------*/
+/* HEADER *//*-----------------------------------------------*/
 
 header {
     background-color: #0184fc;
@@ -118,22 +104,23 @@ header {
     position: sticky;
     top: 0;
 }
-
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-header nav ul {
-    display: none;
-}
+/* link menu hide per phone & tablet view */
+header nav ul {display: none;}
 
 
 /* ---------------------------------------- */
 
-/* MAIN *//* SECTION CARD*/
+/* MAIN *//* SECTION CARD*//*-----------------------------------------------*/
 
+/* prima section */
+#intro {padding: 2.5rem;}
+
+/* contenitore card */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -141,6 +128,7 @@ header nav ul {
     flex-wrap: wrap;
 }
 
+/* proprietà generali card */
 .card {
     flex-basis: 100%;
     background-color: #b4ddfe;
@@ -150,30 +138,24 @@ header nav ul {
     margin-bottom: 2rem;
 }
 
-#intro .card:first-child {
-    text-align: left;
-    padding-bottom: 0;
+#intro img {
+    width: 80%;
+    display: block;
 }
 
-#intro .card:first-child i{
- font-size: 1rem;
- color: white;
-}
+/* proprietà prima card */
+#intro .card:first-child { text-align: left; padding-bottom: 0;}
 
-.card h3 {
-    color: #0184fc;
-}
+#intro .card:first-child i{ font-size: 1rem; color: white;}
 
+/* proprietà elementi card */
+.card h3 {color: #0184fc;}
 .card p {
     color: rgb(113, 104, 149);
     line-height: 140%;
     margin: 1.25rem 0;
 }
-
-.card img {
-    margin-top: 1.25rem;
-}
-
+.card img {margin-top: 1.25rem;}
 .card i {
     font-size: 3rem;
     color: #0184fc;
@@ -181,6 +163,8 @@ header nav ul {
 }
 
 
+
+/* MAIN *//* PLANNING*//*-----------------------------------------------*/
 
 
 
@@ -207,15 +191,11 @@ header nav ul {
 
 
 /* -------------------------------------------------- */
-/* RESPONSIVE */
+/* RESPONSIVE *//*-----------------------------------------------*/
 
 
 
-
-
-
-
-/* TABLET */
+/* TABLET *//*-----------------------------------------------*/
 @media only screen and (min-width: 768px) {
     
     /* CARD */
@@ -230,23 +210,23 @@ header nav ul {
     
     .card {
         flex-basis: calc(100%/3 - 2%);
-        /* background-color: #b4ddfe;
-        padding: 1.5rem;
-        border-radius: 15px;
-        text-align: center;
-        margin-bottom: 2rem; */
     }
     
     #intro .card:first-child {
        flex-basis: calc(66.66% - 1%);
     }
+
+    /* ---------------------------- */
+    /* PLANNING */
 }
 
 
-/* DESKTOP */
+
+
+/* DESKTOP *//*-----------------------------------------------*/
 @media only screen and (min-width: 992px) {
 
-
+    /* header */ /* hamburger menu hide, show link */
     header nav .fa-bars{
         display: none;
     }
@@ -257,10 +237,13 @@ header nav ul {
 
 
     /* CARD */
-
     #intro .card:first-child {
         display: flex;
     }
+
+
+
+
 
 }
 
