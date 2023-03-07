@@ -112,13 +112,13 @@ header nav {
 /* link menu hide per phone & tablet view */
 header nav ul {display: none;}
 
+#intro,
+#strategy-planning {padding: 2.5rem;}
+
 
 /* ---------------------------------------- */
 
 /* MAIN *//* SECTION CARD*//*-----------------------------------------------*/
-
-/* prima section */
-#intro {padding: 2.5rem;}
 
 /* contenitore card */
 .container {
@@ -166,11 +166,52 @@ header nav ul {display: none;}
 
 /* MAIN *//* PLANNING*//*-----------------------------------------------*/
 
+#strategy-planning {
+    background-color: #9792e4;
+    color: white;
+}
 
+#strategy-planning img {
+    width: 100%;
+}
 
+#strategy-planning col {
+    padding: 2rem;
+}
 
+#colleft {
+    padding: 2rem;
+}
 
+#strategy-planning h2 {
+    margin-bottom: 1.5rem;
+}
 
+.container-1000 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 15px; 
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn-rounded {
+    background-color: #9792e4;
+    color: black;
+    border-radius: 100%;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+}
 
 
 
