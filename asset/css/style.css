@@ -113,7 +113,8 @@ header nav {
 header nav ul {display: none;}
 
 #intro,
-#strategy-planning {padding: 2.5rem;}
+#strategy-planning,
+#testimonials {padding: 2.5rem;}
 
 
 /* ---------------------------------------- */
@@ -213,7 +214,54 @@ header nav ul {display: none;}
     line-height: 45px;
 }
 
+/* MAIN *//* TESTIMONIALS*//*-----------------------------------------------*/
 
+#testimonials .testimonial img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    aspect-ratio: 1;
+}
+
+#testimonials .testimonial {
+    background-color: #9792e4;
+    color: white;
+    padding: 1.25rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+
+#testimonials {
+    text-align: center;
+}
+
+#testimonials h2 {
+    margin-bottom: 1.25rem;
+}
+
+#testimonials p {
+    margin-bottom: 1.25rem;
+}
+
+#testimonials .testimonial p::before {
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+#testimonials .testimonial p::after {
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+/* .icon::before {
+    content: "";
+    font-family: ;
+    font-weight: ;
+} */
 
 
 
@@ -258,7 +306,21 @@ header nav ul {display: none;}
     }
 
     /* ---------------------------- */
-    /* PLANNING */
+    /* TESTIMONIALS */
+    #testimonials {
+        text-align: left;
+    }
+
+    #testimonials .testimonial {
+        display: flex;
+        align-items: center;
+    }
+
+    #testimonials .testimonial img {
+        margin-right: 1.5rem;
+    }
+
+
 }
 
 
