@@ -84,48 +84,20 @@ h3 {
 /* -------------------------------- */
 /* HEADER */
 
+header {
+    background-color: #0184fc;
+    color: white;
+    padding: 1.25rem;
+}
 
-/* HEADER *//*NAVBAR*/
-
-nav {
+header nav {
+    display: flex;
     justify-content: space-between;
-    background-color: #0184fc;
     align-items: center;
-    padding: 20px;
-    position: relative;
 }
 
-#list-nav {
-    color: white;
-    font-size: 20px;
-    line-height: 30px;
-    position: absolute;
-    z-index: 10;
-    text-align: end;
-    background-color: #0184fc;
-    padding: 10px;
-    border-radius: 15px;
-    right: 0px;
+header nav ul {
     display: none;
-}
-
-
-
-.hamb {
-    color: white;
-    font-size: 30px;
-}
-
-#list-nav-2 {
-    display: none;
-}
-
-.hamb:active #list-nav {
-    display: block;
-}
-
-#list-nav:hover {
-    display: block;
 }
 
 /* ---------------------------------------- */
@@ -167,53 +139,6 @@ nav {
 /* -------------------------------------------------- */
 /* RESPONSIVE */
 
-/* DESKTOP */
-@media only screen and (min-width: 768px) {
-
-    body {
-        font-family: sans-serif;
-        width: 100vw;
-    }
-    
-    
-    section {
-        margin: 20px 0;
-        width: 60%;
-        margin: auto;
-    }
-
-/* --------------------------------------- */
-
-    header {
-        background-color:#0184fc;
-    }
-
-    nav {
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        width: 60%;
-        margin: auto;
-    }
-
-    #list-nav-2 {
-        display: flex;
-    }
-
-
-
-    #div-hamb {
-        display: none;
-    }
-
-/* ---------------------------------------- */
-
-
-
-}
-
-
-
 
 
 
@@ -221,64 +146,22 @@ nav {
 
 
 /* TABLET */
-@media only screen and (min-width: 480px) {
-    
-    body {
-        font-family: sans-serif;
-        width: 100%;
-    }
+@media only screen and (min-width: 768px) {
     
     
-    section {
-        margin: 20px 0;
-    }
-
-/* ---------------------------------------- */
-
-    nav {
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .hamb {
-        color: white;
-        font-size: 30px;
-    }
     
-    #list-nav-2 {
-        display: none;
-    }
-
-    .hamb:active #list-nav {
-        display: block;
-    }
-
-    #list-nav:hover {
-        display: block;
-    }
-
-/* ---------------------------------------- */
-
-
-   
-
+    
 }
 
 
-
-
-
-/* MOBILE */
-@media only screen and (max-width: 480px) {
-
-
-
-
-
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
 
 
 
 
 
 }
+
+
+
