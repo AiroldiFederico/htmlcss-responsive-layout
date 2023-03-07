@@ -64,6 +64,11 @@ a:hover {
 
 ul li {
 	list-style-type: none;
+    display: inline-block;
+    margin: 1.25rem;
+}
+ul li:last-child{
+	margin-right: 0;
 }
 
 
@@ -75,9 +80,15 @@ h3 {
 }
 
 
+.btn {
+    padding: 8px 12px;
+    border-radius: 15px;
+}
 
-
-
+.btn-white {
+    background-color: white;
+    color: #0184fc;
+}
 
 
 
@@ -88,6 +99,8 @@ header {
     background-color: #0184fc;
     color: white;
     padding: 1.25rem;
+    position: sticky;
+    top: 0;
 }
 
 header nav {
@@ -99,6 +112,7 @@ header nav {
 header nav ul {
     display: none;
 }
+
 
 /* ---------------------------------------- */
 
@@ -158,7 +172,13 @@ header nav ul {
 @media only screen and (min-width: 992px) {
 
 
+    header nav .fa-bars{
+        display: none;
+    }
 
+    header nav ul{
+        display: block;
+    }
 
 
 }
