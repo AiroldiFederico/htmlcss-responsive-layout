@@ -11,6 +11,7 @@
 .flex-center {display: flex; justify-content: center; align-items: center;}
 .flex-align {display: flex; align-items: center;}
 .flex-bas-2 { flex-basis: 50;}
+.wrap {flex-wrap: wrap;}
 
 .mrg-lft-20 { margin-left: 20px;}
 .mrg-rgt-20 { margin-right: 20px;}
@@ -114,7 +115,8 @@ header nav ul {display: none;}
 
 #intro,
 #strategy-planning,
-#testimonials {padding: 2.5rem;}
+#testimonials,
+#benefits {padding: 2.5rem;}
 
 
 /* ---------------------------------------- */
@@ -243,6 +245,18 @@ header nav ul {display: none;}
     margin-bottom: 1.25rem;
 }
 
+.content-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5{
+    margin-bottom: 20px;
+}
+
+
 #testimonials .testimonial p::before {
     content: "\f10d";
     font-family: "Font Awesome 6 Free";
@@ -262,6 +276,30 @@ header nav ul {display: none;}
     font-family: ;
     font-weight: ;
 } */
+
+/* MAIN *//* BENEFITS*//*-----------------------------------------------*/
+
+
+#benefits {
+    background-color: #9792e4;
+    color: white;
+
+}
+
+#benefits .benefits-card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#benefits .benefit-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    flex-basis: 100%;
+    color: #9792e4;
+}
 
 
 
@@ -319,6 +357,8 @@ header nav ul {display: none;}
     #testimonials .testimonial img {
         margin-right: 1.5rem;
     }
+    /* BENEFITS*//*-----------------------------------------------*/
+
 
 
 }
@@ -358,6 +398,10 @@ header nav ul {display: none;}
     #strategy-planning .card-white img {
         width: 50%;
     }
+
+    /* BENEFITS*//*-----------------------------------------------*/
+
+
 
 }
 
