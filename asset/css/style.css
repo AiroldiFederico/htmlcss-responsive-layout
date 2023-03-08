@@ -116,7 +116,8 @@ header nav ul {display: none;}
 #intro,
 #strategy-planning,
 #testimonials,
-#benefits {padding: 2.5rem;}
+#benefits,
+#about-us {padding: 2.5rem;}
 
 
 /* ---------------------------------------- */
@@ -218,7 +219,8 @@ header nav ul {display: none;}
 
 /* MAIN *//* TESTIMONIALS*//*-----------------------------------------------*/
 
-#testimonials .testimonial img {
+#testimonials .testimonial img,
+#about-us .avatar img {
     border-radius: 50%;
     object-fit: cover;
     width: 200px;
@@ -318,16 +320,37 @@ h5{
     color: #9792e4;
 }
 
-#benefits .btn-purple {
+#benefits .btn-purple
+#about-us .btn-purple {
     color: white;
     background-color: #9792e4;
     margin-top: 1.5rem;
     display: inline-block;
 }
 
+/* MAIN *//* ABOUT US*//*-----------------------------------------------*/
 
+#about-us .container{
+    display: flex;
+}
 
+#about-us h2 {
+    font-size: 2.5rem;
+    color: #9792e4;
+    margin: 1.5rem 0;
+}
 
+#about-us .avatar {
+    position: relative;
+}
+
+#about-us .avatar i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.5rem;
+    color: #9792e4;
+}
 
 
 
