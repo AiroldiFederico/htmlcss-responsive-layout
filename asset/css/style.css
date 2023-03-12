@@ -106,11 +106,14 @@ header {
     padding: 1.25rem;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
 /* link menu hide per phone & tablet view */
 header nav ul {display: none;}
@@ -345,21 +348,6 @@ h5{
 }
 
 
-
-
-
-/* #about-us .container{
-    display: flex;
-    justify-content: space-between;
-}
-
-#about-us .container div:first-child{
-   flex-basis: 70%;
-}
-#about-us .container div:last-child{
-   flex-basis: 25%;
-} */
-
 #about-us .container div:first-child p{
     margin: 2rem 0;
  }
@@ -443,13 +431,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 15rem;
+    min-height: 20rem;
 }
 
 
 
 footer div {
-    width: 50%;
+    width: 90%;
     margin: auto;
 }
 
@@ -504,19 +492,11 @@ footer div {
     }
 
 
-    /* #about-us .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    #about-us .container div:first-child{
-       flex-basis: 100%;
-    }
-    #about-us .container div:last-child{
-       flex-basis: 100%;
-    } */
 
+    footer div {
+        width: 40%;
+        margin: auto;
+    }
 
 }
 
