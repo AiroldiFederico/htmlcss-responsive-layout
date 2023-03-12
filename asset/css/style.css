@@ -384,16 +384,54 @@ h5{
     color: #9792e4;
 }
 
+/* cta */
+
+#cta {
+    background-color: #9792e4;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+}
 
 
+#cta h3 {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+    color: white;
+}
+
+#cta h2 {
+    font-size: 5rem;
+    color: yellow;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#cta ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cta ul li {
+    list-style: circle;
+    margin: 2rem 0.5rem;
+}
+
+#cta p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
 
 
+.btn-purple2 {
+    background-color: #ffffff;
+    color:#9792e4;
+    margin: 1.25rem 0;
 
-
-
-
-
-
+}
 
 
 /* -------------------------------------------------- */
