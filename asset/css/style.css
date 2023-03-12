@@ -434,6 +434,28 @@ h5{
 }
 
 
+/* FOOTER */
+
+footer {
+    background-color: rgb(47, 47, 47);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 15rem;
+}
+
+
+
+footer div {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
 /* -------------------------------------------------- */
 /* RESPONSIVE *//*-----------------------------------------------*/
 
@@ -551,6 +573,13 @@ h5{
     }
     #about-us .container div:last-child{
        flex-basis: 25%;
+    }
+
+    #cta p {
+        text-align: center;
+        width: 40%;
+        margin: auto;
+        padding-bottom: 1rem;
     }
 
 }
