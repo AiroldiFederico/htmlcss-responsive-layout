@@ -79,6 +79,8 @@ a:hover {
 }
 
 
+
+
 /* Title style *//*-----------------------------------------------*/
 h3 {
     color: #0184fc;
@@ -320,7 +322,7 @@ h5{
     color: #9792e4;
 }
 
-#benefits .btn-purple
+#benefits .btn-purple,
 #about-us .btn-purple {
     color: white;
     background-color: #9792e4;
@@ -329,10 +331,38 @@ h5{
 }
 
 /* MAIN *//* ABOUT US*//*-----------------------------------------------*/
-
 #about-us .container{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+#about-us .container div:first-child{
+   flex-basis: 100%;
+}
+#about-us .container div:last-child{
+   flex-basis: 100%;
+}
+
+
+
+
+
+/* #about-us .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-us .container div:first-child{
+   flex-basis: 70%;
+}
+#about-us .container div:last-child{
+   flex-basis: 25%;
+} */
+
+#about-us .container div:first-child p{
+    margin: 2rem 0;
+ }
 
 #about-us h2 {
     font-size: 2.5rem;
@@ -342,6 +372,8 @@ h5{
 
 #about-us .avatar {
     position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
 #about-us .avatar i{
@@ -412,6 +444,20 @@ h5{
     }
 
 
+    /* #about-us .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #about-us .container div:first-child{
+       flex-basis: 100%;
+    }
+    #about-us .container div:last-child{
+       flex-basis: 100%;
+    } */
+
+
 }
 
 
@@ -456,6 +502,18 @@ h5{
         flex-basis: calc(100%/3 - 2%);
     }
 
+    #about-us .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    #about-us .container div:first-child{
+       flex-basis: 70%;
+    }
+    #about-us .container div:last-child{
+       flex-basis: 25%;
+    }
 
 }
 
